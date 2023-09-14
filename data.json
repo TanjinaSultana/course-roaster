@@ -1,0 +1,76 @@
+
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/GCp1wY2/Rectangle-2.png",
+      "title": "Introduction to Python",
+      "description": "Learn the fundamentals of Python programming.",
+      "price": 49990,
+      "credit": 3
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/zXQbmbz/Rectangle-2-1.png",
+      "title": "Web Development with JavaScript",
+      "description": "Master front-end web development with JavaScript.",
+      "price": 52990,
+      "credit": 4
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/TwKBnLc/Rectangle-2-2.png",
+      "title": "Advanced Java Programming",
+      "description": "Take your Java skills to the next level.",
+      "price": 67990,
+      "credit": 4
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/c8MG5vV/Rectangle-2-3.png",
+      "title": "Data Science with R",
+      "description": "Explore data analysis and visualization with R.",
+      "price": 70000,
+      "credit": 3
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/c3ks5FH/Rectangle-2-4.png",
+      "title": "Mobile App Development with React Native",
+      "description": "Build cross-platform mobile apps using React Native.",
+      "price": 6900,
+      "credit": 4
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co/4NZzvMP/Rectangle-2-5.png",
+      "title": "Database Management with SQL",
+      "description": "Learn SQL for efficient database management.",
+      "price": 4900,
+      "credit": 3
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co/fp2xBbY/Rectangle-2-6.png",
+      "title": "Full-Stack Web Development",
+      "description": "Become a full-stack web developer with this comprehensive course.",
+      "price": 80000,
+      "credit": 5
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co/GPPhCjN/Rectangle-3.png",
+      "title": "Python for Machine Learning",
+      "description": "Discover machine learning with Python.",
+      "price": 7000,
+      "credit": 4
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co/tXXdBs4/Rectangle-3-1.png",
+      "title": "Ethical Hacking and Cybersecurity",
+      "description": "Learn ethical hacking and cybersecurity techniques.",
+      "price": 50000,
+      "credit": 5
+    }
+  ]
+  
