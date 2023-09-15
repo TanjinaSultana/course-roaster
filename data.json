@@ -11,16 +11,16 @@
     {
       "id": 2,
       "cover": "https://i.ibb.co/zXQbmbz/Rectangle-2-1.png",
-      "title": "Web Development with JavaScript",
-      "description": "Master front-end web development with JavaScript.",
+      "title": "MySQL Database Management",
+      "description": "MySQL is an open-source relational database management system (RDBMS) known for its speed, reliability, and ease of use.",
       "price": 52990,
       "credit": 4
     },
     {
       "id": 3,
       "cover": "https://i.ibb.co/TwKBnLc/Rectangle-2-2.png",
-      "title": "Advanced Java Programming",
-      "description": "Take your Java skills to the next level.",
+      "title": "C Programming Language",
+      "description": "C is a high-level, general-purpose programming language known for its simplicity and efficiency. It was developed in the early 1970s.",
       "price": 67990,
       "credit": 4
     },
@@ -35,8 +35,8 @@
     {
       "id": 5,
       "cover": "https://i.ibb.co/c3ks5FH/Rectangle-2-4.png",
-      "title": "Mobile App Development with React Native",
-      "description": "Build cross-platform mobile apps using React Native.",
+      "title": "C++ Programming Language",
+      "description": "C++ is a powerful, general-purpose programming language that offers a wide range of features and capabilities.",
       "price": 6900,
       "credit": 4
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "cover": "https://i.ibb.co/GPPhCjN/Rectangle-3.png",
       "title": "Python for Machine Learning",
-      "description": "Discover machine learning with Python.",
+      "description": "Discover machine learning with Data Structure.",
       "price": 7000,
       "credit": 4
     },
