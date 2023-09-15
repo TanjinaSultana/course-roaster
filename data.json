@@ -5,7 +5,7 @@
       "cover": "https://i.ibb.co/GCp1wY2/Rectangle-2.png",
       "title": "Introduction to Python",
       "description": "Learn the fundamentals of Python programming.",
-      "price": 49990,
+      "price": 4999,
       "credit": 3
     },
     {
@@ -13,7 +13,7 @@
       "cover": "https://i.ibb.co/zXQbmbz/Rectangle-2-1.png",
       "title": "MySQL Database Management",
       "description": "MySQL is an open-source relational database management system (RDBMS) known for its speed, reliability, and ease of use.",
-      "price": 52990,
+      "price": 5299,
       "credit": 4
     },
     {
@@ -21,7 +21,7 @@
       "cover": "https://i.ibb.co/TwKBnLc/Rectangle-2-2.png",
       "title": "C Programming Language",
       "description": "C is a high-level, general-purpose programming language known for its simplicity and efficiency. It was developed in the early 1970s.",
-      "price": 67990,
+      "price": 6799,
       "credit": 4
     },
     {
@@ -53,7 +53,7 @@
       "cover": "https://i.ibb.co/fp2xBbY/Rectangle-2-6.png",
       "title": "Full-Stack Web Development",
       "description": "Become a full-stack web developer with this comprehensive course.",
-      "price": 80000,
+      "price": 8000,
       "credit": 5
     },
     {
@@ -69,7 +69,7 @@
       "cover": "https://i.ibb.co/tXXdBs4/Rectangle-3-1.png",
       "title": "Ethical Hacking and Cybersecurity",
       "description": "Learn ethical hacking and cybersecurity techniques.",
-      "price": 50000,
+      "price": 5000,
       "credit": 5
     }
   ]
