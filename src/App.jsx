@@ -25,50 +25,29 @@ function App() {
       if(remainingCourse){
        return toast("Already Booked This course.Please Select Another One")
       }else{
-        
-          const newCourse = [...courseAdd,course];
-          setCourseAdd(newCourse)
-
-          priceAdd = priceAdd + course.price;
-
-          setCountAdd(priceAdd);
-
-          creditAdd = creditAdd + course.credit;
-          if(creditAdd >20){
+         creditAdd = creditAdd + course.credit;
+          const remainingCredit = 20-creditAdd;
+          if(creditAdd >20 && remainingCredit<0){
             return toast("Credit Over.")
           }else{
-
+            const newCourse = [...courseAdd,course];
+            setCourseAdd(newCourse)
+            priceAdd = priceAdd + course.price;
+            setCountAdd(priceAdd);
             setCredit(creditAdd)
+            setCreditHour(remainingCredit);
           }
-            const remainingCredit = 20-creditAdd;
-            // if(remainingCredit>20){
-            //   return toast("You can't select credit more than 20")
-            // }else{
-
-              setCreditHour(remainingCredit);
             
         
       }
       
     }
-    // const handlePrice = (price) =>{
-   
-    //   priceAdd = priceAdd + price;
-
-    //   setCountAdd(priceAdd);
-    // }
-    //  const handleCredit = (creditNum) =>{
-    // creditAdd = creditAdd + creditNum;
-    // setCredit(creditAdd)
-    //   const remainingCredit = 20-creditAdd;
-    //   setCreditHour(remainingCredit);
-    //  }
     
 
   return (
     <div>
      <Header></Header>
-     <div className=' md:2/3 max-w-7xl mx-auto  flex'>
+     <div className=' md:2/3 max-w-7xl mx-auto  flex-row lg:flex'>
      <Card 
       handleAdd={handleAdd}
       
