@@ -4,9 +4,9 @@ import Cards from "../Cards/Cards";
 
 
 
-const Card = ({handleAdd,handlePrice,handleCredit}) => {
+const Card = ({handleAdd}) => {
     const [course,setCourse] = useState([])
-    console.log(handleAdd);
+   
     useEffect(() =>{
         fetch("data.json")
         .then(res=>res.json())
@@ -25,8 +25,7 @@ const Card = ({handleAdd,handlePrice,handleCredit}) => {
                 key={course.id}
                 course={course}
                 handleAdd={handleAdd}
-                handlePrice={handlePrice}
-                handleCredit={handleCredit}
+              
                
                 ></Cards>)
             }
