@@ -6,7 +6,16 @@ const Lists = ({course,count}) => {
     //console.log(count);
     return (
         <div>
-            <ol><li> {`${count} ${title}`}</li></ol>
+            <div className="">
+                <ol>
+
+                <li className="text-[grey] mb-2"> {`${count} ${title}`}</li>
+                
+                </ol>
+               
+                
+                </div>
+               
         </div>
     );
 };
