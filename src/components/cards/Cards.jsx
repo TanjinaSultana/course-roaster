@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 
 
-const Cards = ({course,handleAdd,handlePrice}) => {
+const Cards = ({course,handleAdd,handlePrice,handleCredit}) => {
     console.log(course);
     const {id,cover,title,description,price,credit} = course;
     const params = () =>{
       handleAdd(course)
       handlePrice(price)
+      handleCredit(credit)
     }
  
     return (

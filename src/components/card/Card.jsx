@@ -4,7 +4,7 @@ import Cards from "../Cards/Cards";
 
 
 
-const Card = ({handleAdd,handlePrice}) => {
+const Card = ({handleAdd,handlePrice,handleCredit}) => {
     const [course,setCourse] = useState([])
     console.log(handleAdd);
     useEffect(() =>{
@@ -26,6 +26,7 @@ const Card = ({handleAdd,handlePrice}) => {
                 course={course}
                 handleAdd={handleAdd}
                 handlePrice={handlePrice}
+                handleCredit={handleCredit}
                
                 ></Cards>)
             }
