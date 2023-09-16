@@ -8,7 +8,7 @@ const Card = ({handleAdd}) => {
     const [course,setCourse] = useState([])
    
     useEffect(() =>{
-        fetch("data.json")
+        fetch("./data.json")
         .then(res=>res.json())
         .then(data=>setCourse(data))
     },[])
