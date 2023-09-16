@@ -6,7 +6,7 @@ const List = ({courseAdd,countAdd,credit,creditHour}) => {
     
     let count = 1;
     return (
-        <div className="card w-[312px] h-[400px]  bg-base-100 shadow-xl mt-4 lg:ml-8 lg:mt-0">
+        <div className="card w-[312px] h-[400px]  bg-[#F3F3F3] shadow-2xl mt-4 lg:ml-8 lg:mt-0">
   <div className="p-4 mt-2">
     <h1 className="text-lg font-bold mb-2 text-blue-400">Credit Hour Remaining {creditHour} hr</h1>
             <hr className="mt-2 mb-2"></hr>
